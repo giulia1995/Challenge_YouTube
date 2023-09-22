@@ -1,0 +1,109 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main {
+    width: 100%;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: baseline;
+    
+  }
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebar-icon {
+    padding: 1.7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.sidebar-icon p {
+    margin: 0;
+}
+.sidebar-icon ion-icon {
+    font-size: 1.5em;
+}
+
+#topbar {
+    height: 8vh;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    height: 130%;
+}
+#search-wrapper {
+    display: flex;
+    height: 50%;
+}
+#topbar-icons {
+    display: flex;
+}
+.topbar-icon ion-icon {
+    font-size: 1.5em;
+    padding:0 0.3em;
+}
+
+#mic-icon ion-icon {
+    font-size: 1.7em;
+    margin: 0 0.5em;
+}
+#search-button {
+    padding: 0 0.6em;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+}
+.thumbnail-container {
+    width: 30%;
+    align-items: baseline;
+    margin: 20px 0;
+    padding: 10px;
+    }
+
+    .thumbnail {
+    width: 100%;
+    margin: 10px;
+    
+  }
+
+  
+    .epicode-logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    height: 5px;
+    margin-top: 18px;
+   
+    
+  }
+
+  .channel-logo {
+    padding: 1%;
+    width: 10%;
+  }
+
+  
+
+  .title {
+
+    font-weight: bold;
+  }
+
